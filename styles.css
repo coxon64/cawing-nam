@@ -1,7 +1,5 @@
 /* Cawing NAM — Store site, matched to AppTheme */
 
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Syne:wght@600;700;800&display=swap");
-
 :root {
   --charcoal: #0f1217;
   --backdrop-a: #141619;
@@ -19,9 +17,9 @@
   --text-2: rgba(255, 255, 255, 0.55);
   --text-3: rgba(255, 255, 255, 0.35);
   --brand-gradient: linear-gradient(135deg, var(--amber) 0%, var(--copper) 100%);
-  --font-display: "Syne", sans-serif;
-  --font-body: "Source Sans 3", sans-serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+  --font-mono: "SF Mono", ui-monospace, "Menlo", monospace;
   --radius: 16px;
   --max: 44rem;
   --max-wide: 68rem;
