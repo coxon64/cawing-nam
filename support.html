@@ -3,35 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support for Cawing NAM on macOS and iOS — contact, troubleshooting, and TONE3000 help.">
   <title>Cawing NAM Support</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="support.html">Support</a>
-    <a href="privacy.html">Privacy</a>
-    <a href="terms.html">Terms</a>
-  </nav>
-  <h1>Cawing NAM Support</h1>
-  <p>Cawing NAM is a Neural Amp Modeler player for <strong>macOS</strong> (standalone app and Logic / GarageBand Audio Unit) and <strong>iOS</strong> (iPhone and iPad).</p>
+  <div class="site-shell">
+    <nav class="site-nav" aria-label="Primary">
+      <a class="brand-mark" href="index.html">Cawing <span>NAM</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="support.html" aria-current="page">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </nav>
 
-  <h2>Contact</h2>
-  <p>To contact the developer with improvement ideas or general questions, please email <a href="mailto:cawingcrows.music@gmail.com">cawingcrows.music@gmail.com</a>.</p>
+    <main>
+      <header class="page-intro">
+        <p class="eyebrow">Support</p>
+        <h1>We’re here when the tone isn’t.</h1>
+        <p class="lede">Cawing NAM is a Neural Amp Modeler player for <strong>macOS</strong> (standalone app and Logic / GarageBand Audio Unit) and <strong>iOS</strong> (iPhone and iPad).</p>
+      </header>
 
-  <h2>Quick troubleshooting</h2>
-  <ul>
-    <li><strong>No sound (Mac):</strong> Click Engage, allow microphone access in System Settings → Privacy &amp; Security → Microphone, and confirm the Audio tab input/output devices.</li>
-    <li><strong>No sound (iOS):</strong> On the Stage tab, tap STANDBY to start the engine. Allow microphone access in Settings → Cawing NAM. Use a USB audio interface when possible.</li>
-    <li><strong>Empty library:</strong> Import <code>.nam</code> files (Mac: File → Import NAM Profiles…; iOS: Library → + → Import). TONE3000 sign-in is optional.</li>
-    <li><strong>Plugin missing in Logic (Mac):</strong> Launch Cawing NAM once from Applications, then rescan Audio Units in Logic.</li>
-    <li><strong>High latency:</strong> Use an audio interface, buffer 64–128, and avoid Bluetooth I/O.</li>
-  </ul>
+      <h2>Contact</h2>
+      <div class="contact-block">
+        <p>To contact the developer with improvement ideas or general questions, please email <a href="mailto:cawingcrows.music@gmail.com">cawingcrows.music@gmail.com</a>.</p>
+      </div>
 
-  <h2>TONE3000</h2>
-  <p>TONE3000 is an optional third-party catalog. Account, search, and download issues on that service are handled by TONE3000. Report a community capture on <a href="https://www.tone3000.com">tone3000.com</a>.</p>
+      <h2>Quick troubleshooting</h2>
+      <ul class="trouble-list">
+        <li><strong>No sound (Mac)</strong> Click Engage, allow microphone access in System Settings → Privacy &amp; Security → Microphone, and confirm the Audio tab input/output devices.</li>
+        <li><strong>No sound (iOS)</strong> On the Stage tab, tap STANDBY to start the engine. Allow microphone access in Settings → Cawing NAM. Use a USB audio interface when possible.</li>
+        <li><strong>Empty library</strong> Import <code>.nam</code> files (Mac: File → Import NAM Profiles…; iOS: Library → + → Import). TONE3000 sign-in is optional.</li>
+        <li><strong>Plugin missing in Logic (Mac)</strong> Launch Cawing NAM once from Applications, then rescan Audio Units in Logic.</li>
+        <li><strong>High latency</strong> Use an audio interface, buffer 64–128, and avoid Bluetooth I/O.</li>
+      </ul>
 
-  <p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p>
-  <footer>Copyright © 2026 Mike Coxon. All rights reserved.</footer>
+      <h2>TONE3000</h2>
+      <p>TONE3000 is an optional third-party catalog. Account, search, and download issues on that service are handled by TONE3000. Report a community capture on <a href="https://www.tone3000.com">tone3000.com</a>.</p>
+
+      <p class="inline-links">
+        <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a>
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <span>Copyright © 2026 Mike Coxon. All rights reserved.</span>
+      <span><a href="mailto:cawingcrows.music@gmail.com">cawingcrows.music@gmail.com</a></span>
+    </footer>
+  </div>
 </body>
 </html>
